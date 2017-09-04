@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 100eb7378a3ff67429505867cee72fb0
+timeCreated: 1503006092
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Michaelmas
+  fontNames:
+  - Michaelmas
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
