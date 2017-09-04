@@ -18,6 +18,6 @@ Released under GPL v3.
 Track updates on the blog @ [dario.games](www.dario.games)
 
 *Not an especially accurate model yet, considering George's GPA and SAT scores*
-<img src="https://raw.githubusercontent.com/mcoirad/SimUni/master/Assets/Preview/preview1.png" alt="alt text" width="400" >
-*Okay, so it was debunked on Snopes...*
-<img src="https://raw.githubusercontent.com/mcoirad/SimUni/master/Assets/Preview/preview1.png" alt="alt text" width="400" >
+<img src="https://raw.githubusercontent.com/mcoirad/SimUni/master/Assets/Preview/preview1.png" alt="alt text" width="400" ><br>
+*Design your campus just as you see fit!*
+<img src="https://raw.githubusercontent.com/mcoirad/SimUni/master/Assets/Preview/preview2.png" alt="alt text" width="400" >
