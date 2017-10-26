@@ -66,8 +66,8 @@ public class GameUtil : MonoBehaviour {
      * ACTIVITIES
      * These the things that people can spend time on each day
      */
-     
-     public class Activity
+
+    public class Activity
     {
         public string name { get; set; }
         public string desc { get; set; }
@@ -115,58 +115,58 @@ public class GameUtil : MonoBehaviour {
 
     // Define days of the week
     public static Dictionary<int, string> days = new Dictionary<int, string>()
-				{
-					{0, "Sunday"},
-					{1, "Monday"},
-					{2, "Tuesday"},
-					{3, "Wednesday"},
-					{4, "Thursday"},
-					{5, "Friday"},
-					{6, "Saturday"}
-		};
-		
-	// Define majors
-	// FLAGS:
-	// 0 - Basic
-	// 1 - Expansion
-	// 2 - Time Triggered
-	// 99 - Undecided
-	public static string[] marks = new string[]  { "flag", "major"};
-	
-	public static DataFrame majors = new DataFrame (){
-				names = new List<string> () {
-					"flag", "major"
-				},
-				data = new List<List<object>> (){
-					new List<object> {0, "Humanities"},
-					new List<object> {0, "Social Sciences"},
-					new List<object> {0, "Natural Sciences"},
-					new List<object> {1, "Biochemistry"},
-					new List<object> {2, "Computer Science"},
-					new List<object> {99, "Undecided"}
-				} 
-		};
-	
-	// COURSES
-	
-	public static DataFrame courses = new DataFrame () {
-		names = new List<string> () {
-			"major", "name", "type"
-		},
-		data = new List<List<object>> (){
-			new List<object> {"Humanities", "Writing", 0} 
-		}
-	};
-	
-	
-	
-	// METHODS
-	
-	// Method for determining weekday from X days
-	public static int getDay(int day) {
-		int weekDay = day % 7;
-		return weekDay;
-	}
+                {
+                    {0, "Sunday"},
+                    {1, "Monday"},
+                    {2, "Tuesday"},
+                    {3, "Wednesday"},
+                    {4, "Thursday"},
+                    {5, "Friday"},
+                    {6, "Saturday"}
+        };
+
+    // Define majors
+    // FLAGS:
+    // 0 - Basic
+    // 1 - Expansion
+    // 2 - Time Triggered
+    // 99 - Undecided
+    public static string[] marks = new string[] { "flag", "major" };
+
+    public static DataFrame majors = new DataFrame() {
+        names = new List<string>() {
+                    "flag", "major"
+                },
+        data = new List<List<object>>(){
+                    new List<object> {0, "Humanities"},
+                    new List<object> {0, "Social Sciences"},
+                    new List<object> {0, "Natural Sciences"},
+                    new List<object> {1, "Biochemistry"},
+                    new List<object> {2, "Computer Science"},
+                    new List<object> {99, "Undecided"}
+                }
+    };
+
+    // COURSES
+
+    public static DataFrame courses = new DataFrame() {
+        names = new List<string>() {
+            "major", "name", "type"
+        },
+        data = new List<List<object>>(){
+            new List<object> {"Humanities", "Writing", 0}
+        }
+    };
+
+
+
+    // METHODS
+
+    // Method for determining weekday from X days
+    public static int getDay(int day) {
+        int weekDay = day % 7;
+        return weekDay;
+    }
 
     public static int GetYear(int day)
     {
@@ -192,7 +192,7 @@ public class GameUtil : MonoBehaviour {
     /*
      * Random Name Generation
      */
-     public static string NameGen(Person person)
+    public static string NameGen(Person person)
     {
         List<String> male_prefix = new List<String>()
         {
@@ -219,7 +219,7 @@ public class GameUtil : MonoBehaviour {
             "Smith", "Johnson", "Williams", "Jones", "Brown", "Davis", "Miller", "Wilson", "Moore", "Taylor"
         };
 
-       
+
 
 
         string studentName = "";
@@ -272,6 +272,19 @@ public class GameUtil : MonoBehaviour {
         }
         return listCatName[catIndex];
     }
+
+    public static Dictionary<int, string> calendar = new Dictionary<int, string>()
+    {
+        { 10, "Enrollment" },
+        { 20, "StartClasses" },
+        { 60, "Midterm" },
+        { 100, "Final" },
+        { 120, "StartClasees" },
+        { 160, "Midterm" },
+        { 200, "Finals" },
+        { 210, "Graduation" },
+    };
+
 
 
 }

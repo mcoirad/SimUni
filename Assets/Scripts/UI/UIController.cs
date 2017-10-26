@@ -17,8 +17,9 @@ public class UIController : MonoBehaviour
     public AdmissionsMenu admissionsMenu;
     public AdmissionsEditor admissionsEditor;
     public ManualAdmissions manualAdmissions;
-    
+
     // Button Logic
+    public bool didUseManualAdmissions = false;
 
 
     // Selection Backgroud  

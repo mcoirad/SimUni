@@ -45,7 +45,7 @@ public class MottoSelectScreen : UIPanel {
         }
     }
 
-    public void CloseWindow()
+    new public void CloseWindow()
     {
         ModelController.modelController.values.Add(motto1.options[motto1.value].text);
         ModelController.modelController.values.Add(motto2.options[motto2.value].text);

@@ -40,8 +40,28 @@ public class ManualAdmissions : UIPanel {
         UpdateCurrentStudent();
     }
 
+    public void AutoStudent ()
+    {
+        // keeps decision that algorithm made
+        applicantIndex++;
+        UpdateCurrentStudent();
+    }
+
+    public void CancelMenu()
+    {
+        uiController.OpenAdmissionsMenu();
+        CloseWindow();
+    }
+
     public void UpdateCurrentStudent ()
     {
+        // if finished with last student
+        if (applicantIndex >= applicants.Count)
+        {
+            UIController.uiController.didUseManualAdmissions = true;
+            CancelMenu();
+        } 
+        // else
         Student student = applicants[applicantIndex];
         studentStatus.text = GetStatusText(student);
         studentDescription.text = GetDescText(student);

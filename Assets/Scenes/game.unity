@@ -159,7 +159,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4bdeead697216b64684bd958dc3c5718, type: 2}
-  m_RootGameObject: {fileID: 806069727}
   m_IsPrefabParent: 0
 --- !u!1 &97771993
 GameObject:
@@ -303,37 +302,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 116769307}
---- !u!1 &139341510
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1539351184475776, guid: 906a7c3f37a9eac4582681318a6b3a45,
-    type: 2}
-  m_PrefabInternal: {fileID: 789611954}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 139341511}
-  - component: {fileID: 1421162409}
-  m_Layer: 0
-  m_Name: UIController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &139341511
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4786623472351552, guid: 906a7c3f37a9eac4582681318a6b3a45,
-    type: 2}
-  m_PrefabInternal: {fileID: 789611954}
-  m_GameObject: {fileID: 139341510}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.192352, y: 1.8974106, z: -20}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &319645794
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,70 +875,13 @@ Prefab:
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 906a7c3f37a9eac4582681318a6b3a45, type: 2}
-  m_RootGameObject: {fileID: 139341510}
   m_IsPrefabParent: 0
---- !u!1 &806069727
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1763132413280428, guid: 4bdeead697216b64684bd958dc3c5718,
-    type: 2}
-  m_PrefabInternal: {fileID: 768042}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 806069728}
-  - component: {fileID: 1077181200}
-  m_Layer: 0
-  m_Name: ModelController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &806069728
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4143437984592138, guid: 4bdeead697216b64684bd958dc3c5718,
-    type: 2}
-  m_PrefabInternal: {fileID: 768042}
-  m_GameObject: {fileID: 806069727}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.192352, y: 1.8974106, z: -30}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1077181200
+--- !u!114 &1077181200 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 114892159983083338, guid: 4bdeead697216b64684bd958dc3c5718,
     type: 2}
   m_PrefabInternal: {fileID: 768042}
-  m_GameObject: {fileID: 806069727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c38f4601e227cd848b1cbd64a62b5c0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingDecade: 70
-  decade: 0
-  day: 0
-  gameIsPlay: 0
-  gameSpeed: 1
-  values: []
-  professors: []
-  applicants: []
-  students: []
-  people: []
-  admissionsAvg: 50
-  admissionsDev: 25
-  genSelect: 8
-  discFunds: 0
-  totalSpace: 0
-  classroomSpace: 0
-  adminSpace: 0
-  housingSpace: 0
-  majors: []
 --- !u!1 &1234792747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,34 +1142,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1306984825}
---- !u!114 &1421162409
+--- !u!114 &1421162409 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 114866127223423674, guid: 906a7c3f37a9eac4582681318a6b3a45,
     type: 2}
   m_PrefabInternal: {fileID: 789611954}
-  m_GameObject: {fileID: 139341510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdc6085a8c7a79a498a597b3820b24ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  daysPassed: {fileID: 714333667}
-  gamePlayButton: {fileID: 471881336}
-  canvas: {fileID: 1234792750}
-  panelNum: 0
-  mottoSelectScreen: {fileID: 114692335707016256, guid: 2d5402aa36ca8f147980c91ae8151f92,
-    type: 2}
-  admissionsMenu: {fileID: 114177773496864030, guid: c20233562bdba38459a4b6e9671f5376,
-    type: 2}
-  admissionsEditor: {fileID: 114622846569734244, guid: 8e82bbb01e6e9bb4f8cbb05c594425f3,
-    type: 2}
-  manualAdmissions: {fileID: 114682696360604062, guid: 2620c0b3d08bed942b680138bcf9d5e5,
-    type: 2}
-  selectBackground: {fileID: 97771994}
-  activeSelect: 
-  isActiveBuilding: 0
-  buildBuilding: {fileID: 0}
 --- !u!1 &1428471364
 GameObject:
   m_ObjectHideFlags: 0

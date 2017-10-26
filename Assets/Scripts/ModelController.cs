@@ -32,6 +32,10 @@ public class ModelController : MonoBehaviour {
     public float admissionsDev = 25f;
     //auto admissions selectivity
     public float genSelect = 8;
+    public float genGPA = 5;
+    public float genSAT = 5;
+    public float genExtra = 5;
+    public float genDiv = 5;
 
     // Financials
     public float discFunds;
